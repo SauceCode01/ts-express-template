@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json   # Optional: Comment this out if you WANT to commit your lock file (recommended for apps)
+
+# TypeScript Build Output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment Variables (CRITICAL: Never commit these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+
+# VS Code / Editor Directories
+.vscode/
+!.vscode/extensions.json  # Optional: Un-ignore if you want to share recommended extensions
+!.vscode/launch.json      # Optional: Un-ignore if you want to share debug configs
+*.code-workspace
+
+# Testing / Coverage
+coverage/
+.nyc_output/
+
+# System Files
+.DS_Store
+Thumbs.db
