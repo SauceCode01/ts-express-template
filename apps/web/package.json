@@ -18,6 +18,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@packages/shared": "^1.0.0",
     "express": "^5.2.1",
     "tsc-alias": "^1.8.16",
     "tsx": "^4.21.0"
