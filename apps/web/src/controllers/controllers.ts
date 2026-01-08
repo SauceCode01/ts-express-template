@@ -1,5 +1,5 @@
 import type { RequestHandler } from "express";
-// import { multiplyTwoNumbers, addTwoNumbers } from "@packages/shared";
+import { multiplyTwoNumbers, addTwoNumbers } from "@packages/shared";
 
 export const homeController: RequestHandler = (req, res) => {
   const query = req.query;
@@ -15,6 +15,6 @@ export const homeController: RequestHandler = (req, res) => {
   res.status(200).json({ success: true, message: "Welcome to the Home Page!", data: {
     a,
     b,
-    // sum: addTwoNumbers(a, b),
+    sum: addTwoNumbers(a, b),
   } });
 };
